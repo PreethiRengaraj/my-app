@@ -1,0 +1,453 @@
+body {
+    background: #E3EFF2 !important;
+}
+
+/* -------------------------------------header style start------------------------------------ */
+.header header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+    background-color: #E3EFF2;
+    box-shadow: none;
+}
+
+#user-profile {
+    width: 50px !important;
+    border-radius: 50% !important;
+    height: 50px !important;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a.Logo-img img {
+    width: 83px;
+}
+
+/* -------------------------------------header style end------------------------------------ */
+
+
+/* ----------------------------------------------sidebar css start------------------------------------ */
+.sidebar {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    top: 50px;
+    border-radius: 0px 10px 0px 0px;
+    left: 0;
+    background-color: #E4F0F3;
+    background-image: linear-gradient(to bottom right, #fff, #E4F0F3);
+    padding-top: 0px;
+    padding-right:5px;
+}
+.leftEixed-menu {
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 4px;
+}
+
+.sidebar li {
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 16px;
+    margin: 7px 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.sidebar li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+
+.sidebar li:hover {
+    background-color: #D1ECEF;
+}
+
+.sidebar li svg {
+    width: 18px;
+}
+/* ----------------------------------------------sidebar css end------------------------------------ */
+
+
+/*----------------------------------------- home start------------------------------------ */
+
+.right-menu {
+    float: right;
+    margin-top: 51px;
+    width: calc(100% - 225px);
+    background: #fff;
+    POSITION: fixed;
+    right: 0px;
+    padding: 0px 30px;
+    height: calc(100vh - 51px);
+    border-radius: 10px 0px 0px 0px;
+    overflow-y: auto;
+}
+
+.Left-side-bar {
+    float: left;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    color: #007F9B;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+/*----------------------------------------- home end------------------------------------ */
+
+/* ----------------------------------------------Deals start------------------------------------ */
+.titleHeading{
+    font-size: 20px;
+    font-weight: 500;
+    color:#333;
+}
+.deals-btn{
+    font-size: 14px;
+    color:#fff;
+    background: #007F9B;
+}
+.deals-btn svg{
+    color:#fff;
+    font-size: 17px;
+    margin-top: -3px;
+}
+.deals-btn {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 12px;
+    background: #007F9B;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.required {
+    color: #F9281B;
+}
+/* ----------------------------------deals  end-------------------------------- */
+
+/* ----------------------------------deals form start-------------------------------- */
+input#formGroupExampleInput {
+    box-shadow: none;
+    border: 1px solid #CBCCCD;
+    color: #333;
+    opacity: 1;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+label.dealsLable {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:9;
+  }
+  
+  .popup-inner {
+    width: 95%;
+    /* height: 88vh; */
+    position: fixed;
+    /* margin-top: 106px; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    top: 69px;
+    bottom: 0px;
+  }
+  .inputGroup {
+    position: relative;
+}
+
+.inputImage {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+}
+
+.inputGroup input#formGroupExampleInput {
+    padding-right: 31px !important;
+}
+
+.inputImage .svg {
+    width: 21px;
+    color: #333;
+}
+.error_msg {
+    padding: 0px !important;
+    background: transparent !important;
+    color: #F9281B !important;
+    font-weight: 500 !important;
+    font-family: 'medium' !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    font-size: 13px;
+}
+span.currency {
+    font-size: 13px;
+}
+select#formGroupExampleInput {
+    box-shadow: none;
+    border: 1px solid #CBCCCD;
+    color: #333;
+    opacity: 1;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    appearance: auto;
+}
+.form-group.col-md-4 {
+    margin-bottom: 12px;
+}
+.form-group.col-md-4 {
+    margin-bottom: 12px;
+}
+
+.popup-buttons {
+    text-align: center;
+    margin: 13px 0px;
+}
+
+.popup-buttons  button {
+    border: none;
+    padding: 4px 15px;
+    margin: 0px 6px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.DealsCancel-btn{
+    background: #F3F3F3;
+}
+.DealsSubmit-btn{
+    color:#fff;
+    background: #007F9B;
+}
+.deal-info-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #007a94;
+}
+.deal-info-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #007a94;
+}
+
+.deal-hader {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.Deals-user-profile-img img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.Deals-user-profile {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.Owner-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 125px;
+    font-size: 15px;
+}
+
+form.Deal-Froms {
+    max-height: 100%;
+    overflow-y: auto;
+    min-height: 100px;
+    overflow-x: hidden;
+    padding-right: 6px;
+    padding-bottom: 33px;
+}
+.Deals-position-fix {
+    position: sticky;
+    top: 0;
+    padding: 15px 0px;
+    margin: 0px -2px;
+    background: #fff;
+    z-index: 1;
+}
+/* ----------------------------------deals form end-------------------------------- */
+
+/* ----------------------------------deals form table start-------------------------------- */
+
+.Deals-table {
+    box-shadow: none;
+    border: 1px solid #E2E0E6;
+}
+
+.Deals-table  th {
+    padding: 10px 8px;
+    background:#007f9b;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Deals-table  td {
+    padding:  8px;
+    color: #000000b3;
+    font-size: 14px;
+    font-weight: 500;
+}
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0;
+}
+
+.Deals-table  th span{
+    padding:0px
+}
+.Deals-table th input {
+    color: #333;
+}
+td .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root {
+    color: #007f9b !important;
+    accent-color: #007f9b;
+}
+th .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root {
+    color: #fff;
+    accent-color: #fff;
+}
+
+th .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, 
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #fff;
+}
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0;
+}
+
+td.Daels-priority {
+    padding: 0px;
+}
+
+td.Daels-priority>div {
+    width: 88px;
+    border-radius: 5px;
+}
+td.Deals-contact>div {
+    border-radius: 4px;
+    color: #000000b3;
+    font-size: 13px;
+    background: #D8EAEF;
+    border: none;
+}
+.css-1lrxra9-MuiChip-root .MuiChip-avatar {
+    width: 20px;
+    height: 20px;
+}
+.css-1umw9bq-MuiSvgIcon-root {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.css-1lrxra9-MuiChip-root {
+    border-radius: 4px !important;
+    margin: 0px 3px !important;
+}
+
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0px !important;
+}
+div#Accoordion>div {
+    margin: 0px;
+}
+/* ----------------------------------deals form table end-------------------------------- */
+
+
+/* src/components/Navbar.css */
+  
+  .Left-side-bar.closed {
+    width: 59px; /* Width when closed */
+  }
+
+  .toggle-button {
+    background: none;
+    float: right;
+    border: none;
+    color: white;
+    /* text-align: -webkit-auto; */
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: -2px;
+    margin-top: 5px;
+    justify-content: center;
+    padding: 3px;
+    display: flex;
+    /* margin: 10px; */
+    color: #333;
+    border-radius: 3px;
+    width: 22px;
+    background: lightgray;
+  }
+  .toggle-icon {
+    width: 15px !important;
+}
+
+.right-menu {
+    flex-grow: 1; /* Allow this to take up remaining space */
+    padding: 20px; /* Optional padding */
+    transition: margin-left 0.3s ease; /* Smooth transition for margin changes */
+  }
+  
+  .Left-side-bar.closed + .right-menu {
+       width: calc(100% - 75px); /* No margin when sidebar is closed */
+  }
+  
+  .Left-side-bar.open + .right-menu {
+        width: calc(100% - 225px); /* Margin equal to sidebar width when open */
+  }
+  .Left-side-bar.sidebar.open:hover .toggle-button{
+    display:block;
+}
+
+.Left-side-bar.sidebar.open .toggle-button{
+    display:none;
+}
